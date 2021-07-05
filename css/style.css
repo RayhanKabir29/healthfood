@@ -1,0 +1,113 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/*header section css*/
+#header-section {
+  padding: 30px 80px;
+  display: flex;
+}
+.logo {
+  width: 50%;
+  align-items: flex-start;
+}
+.logo h1 {
+  color: tomato;
+}
+.logo h1 span {
+  color: orange;
+}
+.menu {
+  width: 50%;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 15px;
+  margin-right: 15px;
+}
+.menu ul li a {
+  color: orange;
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Playfair Display", serif;
+}
+.
+/*newsletter css start here*/
+.newsletter {
+  background: #f0f0f0;
+}
+
+.subscribe {
+  text-align: center;
+  padding: 50px 0;
+}
+.subscribe h1 {
+  font-family: "Playfair Display", serif;
+  padding-bottom: 60px;
+  color: #333333;
+  font-weight: 400;
+}
+.contact-mail {
+  width: 32%;
+  padding: 20px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #000;
+}
+
+.contact-mail:focus {
+  outline: 0;
+}
+.contact-mail::placeholder {
+  font-family: "Playfair Display", serif;
+  color: #626262;
+  font-size: 14px;
+  font-weight: 300;
+}
+i {
+  color: #848483;
+}
+/*more post section*/
+
+/*footer class css*/
+.footer {
+  background: #f0f0f0;
+  padding: 20px 0;
+  display: flow-root;
+}
+
+.footer-left {
+  widows: 50%;
+  float: left;
+  display: flow-root;
+}
+.footer-left a {
+  font-family: "Playfair Display", serif;
+  color: #202020;
+  margin-right: 15px;
+}
+.footer-right {
+  width: 50%;
+  float: right;
+  text-align: right;
+  display: flow-root;
+}
+.footer-right p {
+  font-family: "Playfair Display", serif;
+  display: inline-block;
+  margin-right: 18px;
+  color: #202020;
+}
+.footer-right a i {
+  color: #626262;
+  margin-right: 10px;
+}
