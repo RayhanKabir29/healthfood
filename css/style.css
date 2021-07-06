@@ -96,6 +96,12 @@ h1 {
 .recipie-title {
   text-align: center;
 }
+.recipie-title h1 {
+  font-size: 38px;
+  font-weight: 700;
+  color: orange;
+  margin-bottom: 10px;
+}
 .recipie-title p {
   width: 30%;
   margin: 0 auto;
@@ -103,13 +109,36 @@ h1 {
 .item {
   width: 30%;
   margin: 2%;
+  padding: 3%;
+  border-radius: 10px;
+  box-shadow: 2px 6px 10px grey;
 }
 .item img {
   width: 100%;
 }
+.item h2 {
+  color: tomato;
+  margin-top: 8px;
+}
+#social-count {
+  width: 77%;
+  margin: 0 auto;
+  padding: 50px 40px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 4px grey;
+}
+.social-item {
+  width: 33%;
+  text-align: center;
+}
+
 /*newsletter css start here*/
-.newsletter {
-  background: #f0f0f0;
+#newsletter {
+  margin-top: 40px;
+  padding: 30px 80px;
+  background-image: url(../img/news.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .subscribe {
@@ -117,9 +146,8 @@ h1 {
   padding: 50px 0;
 }
 .subscribe h1 {
-  font-family: "Playfair Display", serif;
   padding-bottom: 60px;
-  color: #333333;
+  color: darkgray;
   font-weight: 400;
 }
 .contact-mail {
@@ -128,52 +156,35 @@ h1 {
   border: none;
   background: transparent;
   border-bottom: 1px solid #000;
+  margin-bottom: 35px;
 }
 
 .contact-mail:focus {
   outline: 0;
 }
 .contact-mail::placeholder {
-  font-family: "Playfair Display", serif;
   color: #626262;
   font-size: 14px;
   font-weight: 300;
 }
-i {
-  color: #848483;
+.btn-send {
+  padding: 10px 45px;
+  background-image: linear-gradient(180deg, rgb(194, 164, 107), orange);
+  border-radius: 25px;
+  color: rgb(66, 49, 49);
 }
-/*more post section*/
 
 /*footer class css*/
 .footer {
-  background: #f0f0f0;
-  padding: 20px 0;
-  display: flow-root;
+  padding: 80px 80px;
+  background: #000;
 }
-
-.footer-left {
-  widows: 50%;
-  float: left;
-  display: flow-root;
+.footer-text {
+  text-align: center;
 }
-.footer-left a {
-  font-family: "Playfair Display", serif;
-  color: #202020;
-  margin-right: 15px;
+.footer-text h1 {
+  color: gray;
 }
-.footer-right {
-  width: 50%;
-  float: right;
-  text-align: right;
-  display: flow-root;
-}
-.footer-right p {
-  font-family: "Playfair Display", serif;
-  display: inline-block;
-  margin-right: 18px;
-  color: #202020;
-}
-.footer-right a i {
-  color: #626262;
-  margin-right: 10px;
+.footer-text p {
+  color: gray;
 }
